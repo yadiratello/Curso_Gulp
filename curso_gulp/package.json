@@ -1,0 +1,36 @@
+{
+  "name": "cursogulp",
+  "version": "1.0.0",
+  "description": "prueba de gulp",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@Yadira",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2"
+  },
+  "browserslist": [
+    "last 3 version",
+    "> 1%",
+    "IE 10"
+  ],
+  "dependencies": {
+    "@babel/polyfill": "^7.6.0",
+    "gulp": "^3.9.1"
+  }
+}

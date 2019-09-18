@@ -1,0 +1,13 @@
+doctype html
+html(lang='es')
+    head
+        meta(charset='utf-8')
+        meta(name='viewport' content='with=device-with, user-scalable=no, initial-scale=1.0, minimum-scale=1.0')
+        link(rel="stylesheet", href="css/styles.css")
+    body
+        h1 Soy un titulo 
+        ul.lista
+            -n=0
+            while n++ < 10
+                li.lista__item #{n}
+        p Prueba de recarga en PUG

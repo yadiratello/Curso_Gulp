@@ -1,0 +1,13 @@
+$color : green;
+
+
+body{
+    background: $color;   
+    display: flex;
+    text-align: left;
+}
+li{
+    color: red;
+    font-size: 2em;
+}
+
