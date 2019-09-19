@@ -4,7 +4,9 @@ Instalando gulp de manera global:
 2. instalar nodejs
 3. instalar npm
 4. instalar gulp de manera global
-```sudo npm install gulp -g```
+```sh
+sudo npm install gulp -g
+```
 5. crear package.json
 ```npm init```
 
